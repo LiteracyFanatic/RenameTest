@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RenameTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain.fs" />
+    <Compile Include="IFooPrinter.fs" />
+    <Compile Include="FooPrinter.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
